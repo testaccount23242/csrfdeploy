@@ -71,4 +71,4 @@ def flag():
 
 if __name__ == "__main__":
     init_db()  
-    app.run(debug=True)
+    app.run('0.0.0.0', 8000, debug=False)
