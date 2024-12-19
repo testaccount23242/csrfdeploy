@@ -1,0 +1,10 @@
+CREATE TABLE users (
+    username TEXT PRIMARY KEY,
+    password TEXT NOT NULL,
+    role TEXT NOT NULL
+);
+INSERT INTO users (username, password, role) VALUES ('admin', 'adminpass', 'admin');
+INSERT INTO users (username, password, role) VALUES ('user1', 'userpass', 'user');
+INSERT INTO users (username, password, role) VALUES ('dan01', 'danpass', 'user');
+INSERT INTO users (username, password, role) VALUES ('merry', 'merrypass', 'user');
+INSERT INTO users (username, password, role) VALUES ('gee', 'geepass', 'user');
